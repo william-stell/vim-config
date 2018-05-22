@@ -45,8 +45,6 @@ if &t_Co > 2 || has("gui_running")
 endif
 
 
-" Add syntax files
-source ~/vim-config/syntax/*.vim
 
 
 " /** 
