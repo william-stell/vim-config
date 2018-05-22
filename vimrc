@@ -46,7 +46,7 @@ endif
 
 
 " Add syntax files
-source ~/vimconfig/syntax/*.vim
+source ~/vim-config/syntax/*.vim
 
 
 " /** 
