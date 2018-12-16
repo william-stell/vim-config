@@ -51,3 +51,5 @@ endif
 "iab <buffer> /** /**^M *^M*/^[0A
 
 autocmd BufNewFile,BufRead * setlocal formatoptions+=r
+
+set omnifunc=csscomplete#CompleteCSS
