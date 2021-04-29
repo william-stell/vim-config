@@ -1,8 +1,10 @@
 #!/bin/bash
 
-directory=`pwd`
+DIRECTORY=$(cd `dirname $0` && pwd)
 
-echo "source $directory/vimrc" > ~/.vimrc
-echo "source $directory/syntax/*.vim" >> ~/.vimrc
+echo "${DIRECTORY}"
+
+ln -s ${DIRECTORY} ~/.vim
+ln -s ${DIRECTORY}/vimrc ~/.vimrc
 
 echo "Installed"

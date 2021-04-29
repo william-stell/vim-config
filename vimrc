@@ -53,3 +53,6 @@ endif
 autocmd BufNewFile,BufRead * setlocal formatoptions+=r
 
 set omnifunc=csscomplete#CompleteCSS
+
+filetype off
+filetype plugin indent on
